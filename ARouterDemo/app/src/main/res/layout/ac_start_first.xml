@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="主界面"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/btn_start_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="45dip"
+        android:layout_gravity="center"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:text="原生路由跳转"/>
+
+</android.support.design.widget.CoordinatorLayout>
